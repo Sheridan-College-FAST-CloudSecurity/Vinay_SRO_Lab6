@@ -1,0 +1,35 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+*.tfplan
+.terraformrc
+.terraform.d/
+
+# AWS CLI/Tooling (general)
+# Credentials and config are typically in ~/.aws, but if any temp files
+# or logs are generated within the repo by AWS CLI, exclude them.
+# For example, if you output JSON directly to a file:
+*.json_output
+*.log
+
+# Python (for lambda/client directories)
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.venv/
+venv/
+env/
+pip-log.txt
+.Python
+.eggs/
+*.egg-info/
+build/
+dist/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
