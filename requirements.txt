@@ -1,3 +1,5 @@
-requests
-pybreaker
+fastapi
+uvicorn
+httpx
 tenacity
+pybreaker
